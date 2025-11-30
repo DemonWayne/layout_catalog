@@ -91,6 +91,7 @@
     font-size: 14px;
     font-weight: 700;
     color: $buy-color;
+    transition: color 300ms ease, background-color 300ms ease, border 300ms ease;
 
     &:hover {
       border: 1px solid $buy-background-color;

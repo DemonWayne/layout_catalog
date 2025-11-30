@@ -37,6 +37,8 @@
   text-transform: uppercase;
   color: $nav-color;
   line-height: 60px;
+
+  transition: color 300ms ease;
 }
 
 .nav__link:hover {

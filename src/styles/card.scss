@@ -26,10 +26,12 @@
     color: $main-accent;
 
     margin: 0 0 4px;
+
+    transition: color 300ms ease;
   }
 
   &:hover .card__title {
-    color: #34568b;
+    color: $title-color-hover;
   }
 
   &__subtitle {
@@ -91,7 +93,10 @@
     font-size: 14px;
     font-weight: 700;
     color: $buy-color;
-    transition: color 300ms ease, background-color 300ms ease, border 300ms ease;
+    transition:
+      color 300ms ease,
+      background-color 300ms ease,
+      border 300ms ease;
 
     &:hover {
       border: 1px solid $buy-background-color;
